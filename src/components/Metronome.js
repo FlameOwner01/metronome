@@ -28,7 +28,8 @@ const Metronome  = () => {
     }, [playing]);
     useEffect(() => {
       soundRef.current.playbackRate = bpmValue / 100;
-    }, [bpmValue])
+    }, [bpmValue]);
+   
     const start = () => {
         
      
